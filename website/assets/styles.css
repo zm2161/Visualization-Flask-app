@@ -1,0 +1,62 @@
+
+/* CSS can do calculations and variable usage */
+
+:root {
+    --mainColor: #F5F5F5;
+  }
+  
+  html {
+      font-size: 18px;
+  }
+  
+  .top_menu {
+      top: 0em;
+      left: 0em;
+      right: 0em;
+      height: 4em;
+      padding: 0.5em;
+      background-color: var(--mainColor);
+      position: fixed;
+      z-index: 100;
+      color: blue;
+      width: 100vw;
+  }
+  
+  
+  
+  
+  body {
+      background: var(--mainColor);
+  }
+  
+  .main_contents {
+      margin: 4.5em auto 0 auto;
+      width: calc(100vw - 4em);
+      /* border-radius: 1em;
+      border-style: solid;  */
+      padding: 1em;
+      height: calc(100vh - 5em);
+      background: white;
+  }
+  
+  .inputs_card {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      background: var(--mainColor);
+      text-align: left
+  }
+  
+  /* .graph_div {
+  
+  } */
+  
+  .my_alert {
+      width: 20%;
+  }
+  
+  .vertical_flex {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }

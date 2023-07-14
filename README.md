@@ -8,8 +8,6 @@ This is the final project for Visualization Lab
 
 ### Dependencies
 
-All the required packages/libraries are in requirements.txt
-To install, run pip install -r requirements.txt
 
 ### Executing program
 
