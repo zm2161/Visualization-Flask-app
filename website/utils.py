@@ -9,7 +9,7 @@ import statsmodels.tsa.stattools as ts
 import warnings
 from statsmodels.tsa.arima.model import ARIMA
 warnings.filterwarnings('ignore')
-
+#new
 #from memoization import cached
 
 from sklearn.decomposition import PCA
@@ -20,7 +20,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import *
 
-
+#new change
 def PCA_normalize(df_returns, n_components=50):
     df_ret_train_normalized = preprocessing.StandardScaler().fit_transform(df_returns)
     pca = PCA(n_components=n_components)
